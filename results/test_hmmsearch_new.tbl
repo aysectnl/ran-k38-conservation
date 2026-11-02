@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+sp|P62825|RAN_CANLF  -          ran_only.aln         -           9.2e-150  483.6   0.1    1e-149  483.5   0.1   1.0   1   0   0   1   1   1   1 GTP-binding nuclear protein Ran OS=Canis lupus familiaris OX=9615 GN=RAN PE=1 SV=3
+sp|P62828|RAN_RAT    -          ran_only.aln         -           9.2e-150  483.6   0.1    1e-149  483.5   0.1   1.0   1   0   0   1   1   1   1 GTP-binding nuclear protein Ran OS=Rattus norvegicus OX=10116 GN=Ran PE=1 SV=3
+sp|P38546|RAN1_SOLLC -          ran_only.aln         -             1e-134  434.4   0.1  1.1e-134  434.3   0.1   1.0   1   0   0   1   1   1   1 GTP-binding nuclear protein Ran1 OS=Solanum lycopersicum OX=4081 GN=RAN1 PE=2 SV=1
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      results/ran.hmm
+# Target file:     test_targets_new.fasta
+# Option settings: hmmsearch --tblout results/test_hmmsearch_new.tbl -E 10 results/ran.hmm test_targets_new.fasta 
+# Current dir:     /content
+# Date:            Wed Oct 28 23:32:58 2026
+# [ok]

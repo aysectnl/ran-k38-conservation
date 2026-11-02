@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RAN_HUMAN            -          ran_only.aln         -           3.7e-149  483.6   0.1  4.1e-149  483.5   0.1   1.0   1   0   0   1   1   1   1 -
+RAN_MOUSE            -          ran_only.aln         -           3.7e-149  483.6   0.1  4.1e-149  483.5   0.1   1.0   1   0   0   1   1   1   1 -
+RAN_XENLA            -          ran_only.aln         -           3.7e-149  483.6   0.1  4.1e-149  483.5   0.1   1.0   1   0   0   1   1   1   1 -
+RAN_CHICK            -          ran_only.aln         -           4.7e-149  483.3   0.1  5.2e-149  483.1   0.1   1.0   1   0   0   1   1   1   1 -
+RAN_DANRE            -          ran_only.aln         -           1.6e-146  475.0   0.2  1.8e-146  474.8   0.2   1.0   1   0   0   1   1   1   1 -
+RAN_DROME            -          ran_only.aln         -           1.6e-145  471.7   0.2  1.8e-145  471.6   0.2   1.0   1   0   0   1   1   1   1 -
+RAN_CAEEL            -          ran_only.aln         -           2.6e-144  467.8   0.1  2.9e-144  467.6   0.1   1.0   1   0   0   1   1   1   1 -
+GSP1_NEUCR           -          ran_only.aln         -           1.5e-136  442.4   0.1  1.6e-136  442.3   0.1   1.0   1   0   0   1   1   1   1 -
+RANA1_TOBAC          -          ran_only.aln         -           6.5e-136  440.3   0.0  7.2e-136  440.2   0.0   1.0   1   0   0   1   1   1   1 -
+RAB1A_HUMAN          -          ran_only.aln         -            1.6e-30   95.8   0.1   2.1e-30   95.4   0.1   1.0   1   0   0   1   1   1   1 -
+RASH_HUMAN           -          ran_only.aln         -            6.6e-22   67.6   0.0   7.6e-22   67.4   0.0   1.0   1   0   0   1   1   1   1 -
+ARF1_HUMAN           -          ran_only.aln         -            5.5e-10   28.7   0.2   1.1e-09   27.7   0.1   1.5   1   1   1   2   2   2   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      results/ran.hmm
+# Target file:     all.targets.fasta
+# Option settings: hmmsearch --tblout results/ran_hmmsearch.tbl -E 10 results/ran.hmm all.targets.fasta 
+# Current dir:     /content
+# Date:            Wed Oct 28 23:32:53 2026
+# [ok]
